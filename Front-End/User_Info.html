@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title> Tourist Registration Form </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+    <body>
+        <h1>Tourist Form</h1>
+        <h2>Tourist Personal Details</h1>
+        <form action="http://127.0.0.1:8000/process_post" method="POST">
+            <fieldset>
+                <label for="User_Id_2">User_Id_2: </label>
+                <input type="text" id="User_Id_2" name="User_Id_2" />
+                <br>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" autofocus />
+                <br>
+                <label for="age">Age: </label>
+                <input type="text" id="age" name="age"  />
+                <br>
+                <label for="city">City: </label>
+                <input type="text" id="username" name="city" />
+                <br>
+                <label for="Dob">Date of Birth: </label>
+                <input type="text" id="Dob" name="Dob"  />
+                <br>
+                <label for="Contacty">Contact: </label>
+                <input type="text" id="Contacty" name="Contacty" />
+                <br>
+            </fieldset>
+        <h2>Tourist Expeneses</h1><br>
+            <fieldset>
+                <label for="g">Hour Slot</label>
+                <input type="text" id="g" name="g" />
+                <br/>
+                <label for="a">Basic Fee</label>
+                <input type="text" id="a" name="a" />
+                <br/>
+                <label for="i">Vehicle Slot</label>
+                <input type="text" id="i" name="i" autofocus />
+                <br/>
+                <label for="b">Travel Fee</label>
+                <input type="text" id="b" name="b" autofocus />
+                <br/>
+                <label for="c">Maintenance Fee</label>
+                <input type="text" id="c" name="c"  />
+                <br/>
+                <label for="d">Convinience Fee</label>
+                <input type="text" id="d" name="d" />
+                <br/>
+                <label for="e">CGST</label>
+                <input type="text" id="e" name="e"  />
+                <br/>
+                <label for="f">SGST</label>
+                <input type="text" id="f" name="f" />
+                <br/>
+                <input type="submit" value="create profile" />
+            </fieldset>
+        </form><br>
+
+    </body>
+</html>
